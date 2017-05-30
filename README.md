@@ -9,7 +9,7 @@ of points. The particularity of the code is the
 use of an adaptive barycentric representation
 for representing the rational approximations
 computed during executions. For more information,
-see TODO.
+see [1].
 
 The code is written in MATLAB and requires that
 CVX is also installed. The testing was done using
@@ -24,4 +24,4 @@ cvx_solver Mosek
 The provided code is MIT licensed.
 
 ## References
-TODO
+[1] S. Filip, Y. Nakatsukasa, L. N. Trefethen, B. Beckermann, Rational minimax approximation via adaptive barycentric representations, submitted, 2017.
