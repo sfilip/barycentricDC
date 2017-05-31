@@ -6,7 +6,7 @@ ft = f(t);
 
 % Construct a type (16,16) best approximation
 % to this function
-% Our tests used the Gurobi optimizer
+% Our tests used the Mosek optimizer
 % if available, it can be set by calling
-% cvx_solver Gurobi
+% cvx_solver Mosek
 [rh,xk,err] = barycentricDC(ft,t,16,16,'display','log');
